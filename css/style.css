@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /* CSS Variables */
 :root{
     --navbar-hight: 59px;
@@ -13,7 +17,7 @@
 #navbar{
     display: flex;
     align-items: center;
-    position: relative;
+    position: sticky;
     top: 0px;
 }
 #navbar::before{
@@ -73,7 +77,7 @@ margin: 10px 34px;
     display: flex;
     flex-direction: column;
     padding: 3px 200px;
-    height: 578px;
+    height: 550px;
     justify-content: center;
     align-items: center;
 }
@@ -112,9 +116,10 @@ display: flex;
 #services .box{
 border: 2px solid brown;
 padding: 34px;
-margin: 3px 6px;
+margin: 2px 55px;
 border-radius: 28px;
 background: #f2f2f2;
+margin-bottom: 20px;
 }
 
 #services .box img{
@@ -136,7 +141,7 @@ background: #f2f2f2;
 
 #client-section{
     position: relative;
-    height: 344px;
+
 }
 
 #client-section::before{
